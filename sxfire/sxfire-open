@@ -1,7 +1,7 @@
-   #!/bin/sh
-   url="${1#sxfire:}"
-   case "$url" in
-     http://*|https://*) ;;
-     *) exit 1 ;;
-   esac
-   exec firefox --profile "$HOME/.local/share/sxfire/profile" --new-window "$url"
+#!/bin/sh
+url="${1#sxfire:}"
+case "$url" in
+   http://*|https://*) ;;
+   *) exit 1 ;;
+esac
+exec firefox --profile "$HOME/.local/share/sxfire/profile" --new-window "$url"
