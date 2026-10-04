@@ -5,7 +5,7 @@ sudo pacman -S --needed curl jq xdg-utils firefox
 mkdir -p ~/.local/bin ~/.local/share/applications ~/.local/share/sxfire/profile/chrome
 cp sxfire sxfire-open ~/.local/bin/
 chmod +x ~/.local/bin/sxfire ~/.local/bin/sxfire-open
-cp /sxfire/firesx/firesx ~/.local/bin/
+cp sxfire/firesx/firesx ~/.local/bin/
 chmod +x ~/.local/bin/firesx
 cp firesx/profile/user.js ~/.local/share/sxfire/profile/
 cp firesx/profile/chrome/userChrome.css ~/.local/share/sxfire/profile/chrome/
