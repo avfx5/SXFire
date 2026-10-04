@@ -1,5 +1,5 @@
 #!/bin/sh
-# Run without sudo. SearXNG itself is in the AUR, not pacman's repos: yay -S searxng-git
+# Run without superuser
 set -e
 cd "$(dirname "$0")/sxfire"
 sudo pacman -S --needed curl jq xdg-utils firefox
