@@ -1,0 +1,2 @@
+curl -sS -G "http://localhost:8888/search" --data-urlencode "q=$*" -d format=json | jq -r '.results[] | "\u001b]8;;sxfire:\(.url)\u0007\u001b[36m\(.title)\n\u001b[0m\(.url)\n\u001b[0m\n"'
+
